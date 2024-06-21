@@ -99,5 +99,54 @@ print(to_upper)
 print(to_lower)
 print(to_split)
 
+#list
+#empty list
+
+empty_list = []
+
+#list with elements
+
+l1 = [1,2,3,4,5,6]
+print(l1[0])
+print(l1[1])
+print(l1[2])
+print(l1[3])
+print(l1[4])
+print(l1[5])
+
+print(l1[-1])
+print(l1[-5])
 
 
+#slicing in list
+
+print(l1[2:6])
+print(l1[2:5])
+print(l1[2:])
+
+#changing item in a list
+
+l2 = [10,20,30,40,50,60]
+print(l2)
+l2[2] = 90
+print(l2)
+
+
+#adding items in a list
+
+#append
+
+l2.append('hello') # append দ্বারা কোনোকিছু সংযুক্ত করা হয় তবে তা লিস্ট এর শেষে যুক্ত হবে !
+print(l2)
+
+#insert
+
+l2.insert(4,'hello')
+print(l2)
+
+#extend
+l2.extend([9,8,7,6,5,4])
+print(l2)
+
+l2.extend(l1)
+print(l2)
